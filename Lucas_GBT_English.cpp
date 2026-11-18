@@ -1548,13 +1548,13 @@ int main()
 					cout<< "Processing your message...\a" << endl;
 					std::this_thread::sleep_for(std::chrono::seconds(3));
 					if (i == 0) {
-						cout<< "hello juga " << nama << " It seems you're both confused and curious. What are your plans for today?\a" << endl;
+						cout<< "hello! " << nama << " It seems you're both confused and curious. What are your plans for today?\a" << endl;
 					}
 					else if (i == 1) {
 						cout<< "Hello! How can I help you?\a" << endl;
 					}
 					else if (i == 2) {
-						cout<< "Hmm, hello again? If you're confused about a question or a topic, just let me know.\a" << endl;
+						cout<< "Hmm, hello again? If you're confused about a question or a topic, just let me know ya!.\a" << endl;
 					}
 
 					else if (i == 3) {
@@ -1573,7 +1573,7 @@ int main()
 				cout<< "Processing your message...\a" << endl;
 				std::this_thread::sleep_for(std::chrono::seconds(3));
 				if (i == 0) {
-					cout<< "hello juga " << nama << " It seems you're really enthusiastic! What are your plans for today?\a" << endl;
+					cout<< "hello!! " << nama << " It seems you're really enthusiastic! What are your plans for today?\a" << endl;
 				}
 				else if (i == 1) {
 					cout<< "Hello again!! What's the plan? You seem full of energy!\a" << endl;
